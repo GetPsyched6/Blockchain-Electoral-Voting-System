@@ -15,7 +15,7 @@ const Mess = () => {
 					</div>
 					<div className="inputs">
 						<input type="radio" name="voteable" className="radioo" />
-						<span class="checkmark"></span>
+						<span className="checkmark"></span>
 					</div>
 				</label>
 				<label className="vote_topic_people">
@@ -25,7 +25,7 @@ const Mess = () => {
 					</div>
 					<div className="inputs">
 						<input type="radio" name="voteable" className="radioo" />
-						<span class="checkmark"></span>
+						<span className="checkmark"></span>
 					</div>
 				</label>
 				<label className="vote_topic_people">
@@ -35,7 +35,7 @@ const Mess = () => {
 					</div>
 					<div className="inputs">
 						<input type="radio" name="voteable" className="radioo" />
-						<span class="checkmark"></span>
+						<span className="checkmark"></span>
 					</div>
 				</label>
 				<label className="vote_topic_people">
@@ -45,7 +45,7 @@ const Mess = () => {
 					</div>
 					<div className="inputs">
 						<input type="radio" name="voteable" className="radioo" />
-						<span class="checkmark"></span>
+						<span className="checkmark"></span>
 					</div>
 				</label>
 				<Link to="/voting/success" className="link_block">
