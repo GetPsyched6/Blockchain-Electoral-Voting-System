@@ -1,0 +1,47 @@
+.t_vote {
+	margin-top: 20vh;
+	max-width: 20ch;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border: none;
+  translate: -5rem;
+  width: 60rem;
+  margin-block: -2rem 5rem;
+}
+
+a.link_block {
+  display: block;
+}
+
+.voting {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2rem;
+  margin-block-end: 5rem;
+}
+
+.vote_topic {
+	background-color: #ffffff19;
+  height: 12rem;
+  border-radius: 2rem;
+  box-shadow: 0px 1px 8px #2b2b2b2b;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  padding: 2rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.vote_topic:hover {
+  background-color: #ffbf7a6b;
+  box-shadow: 0px 1px 4px #2b2b2b4e;
+  color: rgb(49, 49, 49);
+}

@@ -1,0 +1,116 @@
+a.link_block {
+	display: block;
+}
+
+.voting_people {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	gap: 2rem;
+	margin-block-end: 5rem;
+}
+
+.vote_topic_people {
+	height: 12rem;
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	padding: 2rem 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	color: black;
+	cursor: pointer;
+	transition: all 500ms ease;
+}
+
+.vote_topic_people:hover {
+	color: rgb(49, 49, 49);
+}
+
+.user_people {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.inputs {
+	margin-top: -3rem;
+	position: relative;
+	width: 50px;
+}
+
+.radioo {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.checkmark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40px;
+	height: 40px;
+	background-color: #f8f8f8a0;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+
+.inputs:hover input ~ .checkmark {
+	background-color: #f8f8f8;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+	content: "";
+	position: absolute;
+	display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.inputs input:checked ~ .checkmark:after {
+	display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.inputs .checkmark:after {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 27.5px;
+	height: 27.5px;
+	border-radius: 50%;
+	background: rgba(89, 178, 147, 0.815);
+}
+
+.sub {
+  width: 100%;
+	margin-block: 5rem 2rem;
+	height: 5rem;
+	vertical-align: middle;
+	border-radius: 50px;
+	backdrop-filter: blur(8px);
+	-webkit-backdrop-filter: blur(8px);
+	background-color: #ffffff43;
+	border: 3px solid #ffffffaa;
+	transition: all 500ms ease;
+  cursor: pointer;
+}
+
+.button_h2 {
+	margin-block: 0;
+	font-weight: 200;
+	color: rgb(49, 49, 49);
+}
+
+.sub:hover {
+	background-image: linear-gradient(135deg, #fa9bfd, #ffd787, #86fff7 90%);
+	background-color: transparent;
+}
+
+.sub:active {
+  background-image: linear-gradient(135deg, #fa9bfd85, #ffd78785, #86fff769 90%);
+}
