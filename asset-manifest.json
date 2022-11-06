@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/blockchain-electoral-voting-system/static/css/main.17acf0fc.css",
+    "main.js": "/blockchain-electoral-voting-system/static/js/main.bf6d2f0e.js",
+    "index.html": "/blockchain-electoral-voting-system/index.html",
+    "main.17acf0fc.css.map": "/blockchain-electoral-voting-system/static/css/main.17acf0fc.css.map",
+    "main.bf6d2f0e.js.map": "/blockchain-electoral-voting-system/static/js/main.bf6d2f0e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17acf0fc.css",
+    "static/js/main.bf6d2f0e.js"
+  ]
+}
