@@ -14,9 +14,9 @@ const Navigation = () => {
 							</Link>
 						</li>
 						<li className="nav_li">
-							<Link to="/voting">About</Link>
+							<Link to="/about">About</Link>
 						</li>
-						<li className="nav_li">Connect Wallet</li>
+						<li className="nav_li">ETH Wallet Connected</li>
 					</ul>
 				</nav>
 			</div>

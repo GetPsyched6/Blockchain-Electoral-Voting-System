@@ -1,8 +1,23 @@
+import { useCallback } from "react";
 import "./voting_people.css";
 import PortraitRoundedIcon from "@mui/icons-material/PortraitRounded";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-const Mess = () => {
+const BeachHouse = () => {
+	const navigate = useNavigate();
+	const handleOnClick = useCallback(
+		() => navigate("/voting/success", { replace: true }),
+		[navigate]
+	);
+	const wait = () => {
+		setTimeout(handleOnClick, 5000);
+		let button = document.querySelector(".button_h2");
+		let button_a = document.querySelector(".sub");
+		button.textContent = "Voting in Progress";
+		button.classList.add("func");
+		button_a.classList.add("button_color");
+	};
+
 	return (
 		<div className="wrapper">
 			<h1 className="t_vote">What will you vote for?</h1>
@@ -48,14 +63,12 @@ const Mess = () => {
 						<span className="checkmark"></span>
 					</div>
 				</label>
-				<Link to="/voting/success" className="link_block">
-					<button className="sub">
-						<h2 className="button_h2">Vote</h2>
-					</button>
-				</Link>
+				<button className="sub" onClick={wait}>
+					<h2 className="button_h2">Vote</h2>
+				</button>
 			</div>
 		</div>
 	);
 };
 
-export default Mess;
+export default BeachHouse;

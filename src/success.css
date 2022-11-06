@@ -2,3 +2,9 @@
   max-width: 24ch;
   font-weight: 300;
 }
+
+.go_h3 {
+  margin-top: 6rem;
+  color: #62396c;
+  text-decoration: underline;
+}

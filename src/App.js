@@ -1,6 +1,7 @@
 import Navigation from "./components/Navigation";
 import Home from "./Home";
 import Voting from "./Voting";
+import About from "./About";
 import Mess from "./Voting/Mess"
 import Trendles from "./Voting/Trendles"
 import BeachHouse from "./Voting/BeachHouse"
@@ -24,6 +25,7 @@ const App = () => {
 				<Routes>
 					<Route exact path="/" element={<Home />} />
 					<Route path="/voting" element={<Voting />} />
+					<Route path="/about" element={<About />} />
 					<Route path="/voting/mess" element={<Mess />} />
 					<Route path="/voting/trendles" element={<Trendles />} />
 					<Route path="/voting/beachhouse" element={<BeachHouse />} />

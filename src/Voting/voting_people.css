@@ -87,7 +87,7 @@ a.link_block {
 }
 
 .sub {
-  width: 100%;
+	width: 100%;
 	margin-block: 5rem 2rem;
 	height: 5rem;
 	vertical-align: middle;
@@ -97,7 +97,7 @@ a.link_block {
 	background-color: #ffffff43;
 	border: 3px solid #ffffffaa;
 	transition: all 500ms ease;
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .button_h2 {
@@ -112,5 +112,27 @@ a.link_block {
 }
 
 .sub:active {
-  background-image: linear-gradient(135deg, #fa9bfd85, #ffd78785, #86fff769 90%);
+	background-image: linear-gradient(
+		135deg,
+		#fa9bfd85,
+		#ffd78785,
+		#86fff769 90%
+	);
+}
+
+.func {
+	animation: flash 750ms alternate infinite;
+}
+
+.button_color {
+	background-color: #69b0e043;;
+}
+
+@keyframes flash {
+	0% {
+		color: black;
+	}
+	100% {
+		color: #00000000;
+	}
 }
