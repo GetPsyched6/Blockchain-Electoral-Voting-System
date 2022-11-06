@@ -1,7 +1,7 @@
 {
   "name": "electoral",
   "version": "0.1.0",
-  "homepage": "https://getpsyched6.github.io/blockchain-electoral-voting-system",
+  "homepage": "https://getpsyched6.github.io/Blockchain-Electoral-Voting-System/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
