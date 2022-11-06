@@ -9,6 +9,7 @@ const BeachHouse = () => {
 		() => navigate("/voting/success", { replace: true }),
 		[navigate]
 	);
+	
 	const wait = () => {
 		setTimeout(handleOnClick, 5000);
 		let button = document.querySelector(".button_h2");
