@@ -1,5 +1,5 @@
-# Blockchain Ecectoral Voting System.
+# Blockchain Ecectoral Voting System Front-End.
 
-## Built with React and Solidity.
+## Built with React.
 
 ### By Group One SW Engg. IIIT-Kottayam.
